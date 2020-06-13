@@ -1,0 +1,140 @@
+@charset "UTF-8";
+p{
+	text-align: justify;
+	text-indent: 50px;
+	}
+
+/*Cabeçalho*/
+header#cabecalho{}
+
+header#cabecalho img#ImagemCabecalho{
+position: absolute;
+top: 50px;
+}
+header#cabecalho ul#menu{
+	top: 150px;
+}
+
+header#cabecalho h1#titulo{
+	font-size: 40px;
+	color: black;
+	padding: 0px 0px;
+	top: -20px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+}
+
+header#cabecalho h1#titulo2{
+	position: absolute;
+	padding-bottom: 1px;
+	padding-right: 0px;
+	margin-right: 1px;
+	font-family: Freestyle Script;
+	font-size: 50px;
+	color: #ff0066 ;
+	top: -15px;
+	left: 440px;
+
+}
+
+header#cabecalho h2#subtitulo{
+	font-family: Freestyle Script;
+	color: #997611;
+	font-size: 45px;
+	margin-top: -10px;
+	padding-top: -10px;
+}
+
+div#interface{
+	width: 900px;
+	background-color: #ffffff;
+	margin: -21px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5) ;
+	padding: 10px ;
+}	
+
+/*Menu de navegação*/
+
+nav#menu ul
+{
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -20px;
+left:600px; 
+
+}
+nav#menu li{
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin:2px;
+	transition:background-color 1s;
+}
+
+nav#menu h1{
+	display: none;
+}
+
+nav#menu li:hover{
+ background: #606060
+}
+nav#menu a{
+	color: black;
+	text-decoration: none;
+}
+nav#menu a:hover{
+	color: white;
+}
+
+/*Corpo*/
+
+div#corpo iframe#UltimaLive{
+	
+}
+
+div#corpo h2{
+font-family: Freestyle Script, sans-serif;
+font-size: 40px;
+color: #997611;
+
+}
+
+div#corpo h3{
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+div#corpo p#visão{
+	font-size: 20px;
+}
+
+/*Rodapé*/
+footer p, a{
+color: white;
+text-align: center;
+font-family: sans-serif;
+align-items: center;
+}
+
+footer a{
+		text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+}
+
+
+footer{
+	font-size: 15pt;
+	background-color: #2d2d2d;
+	margin-top: 10px;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-top: 10px;
+	display: block;
+	border-top: 1px solid black;
+	padding-bottom: 10px;
+}
+
